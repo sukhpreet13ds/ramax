@@ -51,114 +51,587 @@
                 <i class="fa-solid fa-bars"></i>
             </div>
             <div class="mobile-burger" id="mobileBurger">
-            <i class="fa-solid fa-bars"></i>
-        </div>
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </div>
     </nav>
-<div class="mobile-menu-panel" id="mobileMenuPanel">
-    <button class="mobile-close-btn" id="mobileCloseBtn">
-        <i class="fa-solid fa-xmark"></i>
-    </button>
-    <ul class="mobile-nav-list">
-        <li class="active">HOME</li>
-        <li>ABOUT</li>
-        <li>SERVICE</li>
-        <li>GALLERY</li>
-        <li>CONTACT</li>
-    </ul>
-    <div class="mobile-menu-search">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <input type="text" placeholder="SEARCH...">
+    <div class="mobile-menu-panel" id="mobileMenuPanel">
+        <button class="mobile-close-btn" id="mobileCloseBtn">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <ul class="mobile-nav-list">
+            <li class="active">HOME</li>
+            <li>ABOUT</li>
+            <li>SERVICE</li>
+            <li>GALLERY</li>
+            <li>CONTACT</li>
+        </ul>
+        <div class="mobile-menu-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="SEARCH...">
+        </div>
     </div>
-</div>
-  <main>
-    <section class="hero-section">
-        <div class="container h-100 hero-section-inner-wrap">
-            <div class="row h-100 align-items-center">
-                <div class="col-lg-6 hero-left">
-                    <div class="hero-content">
-                        <h1 class="hero-title">STRENGTH SHOULD SOLVE<br> PROBLEMS, NOT CREATE THEM.</h1>
-                        <p class="hero-desc">RAMAX brings together a premium environment,<br>top-tier machines, and
-                            experienced guidance — so<br>transformation becomes part of your routine.</p>
-                        <button class="hero-btn">BOOK YOUR CONSULTATION</button>
+    <main>
+        <section class="hero-section">
+            <div class="container h-100 hero-section-inner-wrap">
+                <div class="row h-100 align-items-center">
+                    <div class="col-lg-6 hero-left">
+                        <div class="hero-content">
+                            <h1 class="hero-title">STRENGTH SHOULD SOLVE<br> PROBLEMS, NOT CREATE THEM.</h1>
+                            <p class="hero-desc">RAMAX brings together a premium environment,<br>top-tier machines, and
+                                experienced guidance — so<br>transformation becomes part of your routine.</p>
+                            <button class="hero-btn">BOOK YOUR CONSULTATION</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 hero-right">
+                        <div class="hero-image-wrapper">
+                            <img src="assets/hero-right-bg.png" alt="Hero Background" class="hero-img-bg">
+                            <img src="assets/hero-right-up.png" alt="Hero Man" class="hero-img-man">
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6 hero-right">
-                    <div class="hero-image-wrapper">
-                        <img src="assets/hero-right-bg.png" alt="Hero Background" class="hero-img-bg">
-                        <img src="assets/hero-right-up.png" alt="Hero Man" class="hero-img-man">
+            </div>
+
+            <!-- Ticker Banner — outside .container, inside .hero-section -->
+            <div class="ticker-wrap">
+                <div class="ticker-track--gray">
+                    <div class="ticker-inner">
+                        <span class="ticker-item">PLANK <span class="ticker-sep">✦</span> CARDIO <span
+                                class="ticker-sep">✦</span> BENCH PRESS <span class="ticker-sep">✦</span> DEAD LIFT
+                            <span class="ticker-sep">✦</span> CROSSFIT <span class="ticker-sep">✦</span> DUMBBELL <span
+                                class="ticker-sep">✦</span> STRENGTH <span class="ticker-sep">✦</span> SQUATS <span
+                                class="ticker-sep">✦</span> PULL UPS <span class="ticker-sep">✦</span></span>
+                        <span class="ticker-item">PLANK <span class="ticker-sep">✦</span> CARDIO <span
+                                class="ticker-sep">✦</span> BENCH PRESS <span class="ticker-sep">✦</span> DEAD LIFT
+                            <span class="ticker-sep">✦</span> CROSSFIT <span class="ticker-sep">✦</span> DUMBBELL <span
+                                class="ticker-sep">✦</span> STRENGTH <span class="ticker-sep">✦</span> SQUATS <span
+                                class="ticker-sep">✦</span> PULL UPS <span class="ticker-sep">✦</span></span>
+                    </div>
+                </div>
+                <div class="ticker-track--red">
+                    <div class="ticker-inner">
+                        <span class="ticker-item">PLANK <span class="ticker-sep">✦</span> CARDIO <span
+                                class="ticker-sep">✦</span> BENCH PRESS <span class="ticker-sep">✦</span> DEAD LIFT
+                            <span class="ticker-sep">✦</span> CROSSFIT <span class="ticker-sep">✦</span> DUMBBELL <span
+                                class="ticker-sep">✦</span> STRENGTH <span class="ticker-sep">✦</span> SQUATS <span
+                                class="ticker-sep">✦</span> PULL UPS <span class="ticker-sep">✦</span></span>
+                        <span class="ticker-item">PLANK <span class="ticker-sep">✦</span> CARDIO <span
+                                class="ticker-sep">✦</span> BENCH PRESS <span class="ticker-sep">✦</span> DEAD LIFT
+                            <span class="ticker-sep">✦</span> CROSSFIT <span class="ticker-sep">✦</span> DUMBBELL <span
+                                class="ticker-sep">✦</span> STRENGTH <span class="ticker-sep">✦</span> SQUATS <span
+                                class="ticker-sep">✦</span> PULL UPS <span class="ticker-sep">✦</span></span>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Ticker Banner — outside .container, inside .hero-section -->
-        <div class="ticker-wrap">
-            <div class="ticker-track--gray">
-                <div class="ticker-inner">
-                    <span class="ticker-item">PLANK <span class="ticker-sep">✦</span> CARDIO <span class="ticker-sep">✦</span> BENCH PRESS <span class="ticker-sep">✦</span> DEAD LIFT <span class="ticker-sep">✦</span> CROSSFIT <span class="ticker-sep">✦</span> DUMBBELL <span class="ticker-sep">✦</span> STRENGTH <span class="ticker-sep">✦</span> SQUATS <span class="ticker-sep">✦</span> PULL UPS <span class="ticker-sep">✦</span></span>
-                    <span class="ticker-item">PLANK <span class="ticker-sep">✦</span> CARDIO <span class="ticker-sep">✦</span> BENCH PRESS <span class="ticker-sep">✦</span> DEAD LIFT <span class="ticker-sep">✦</span> CROSSFIT <span class="ticker-sep">✦</span> DUMBBELL <span class="ticker-sep">✦</span> STRENGTH <span class="ticker-sep">✦</span> SQUATS <span class="ticker-sep">✦</span> PULL UPS <span class="ticker-sep">✦</span></span>
+        </section>
+
+        <section class="about-section-wrap container-fluid">
+            <div class="about-section-bg-title">ABOUT US</div>
+
+            <div class="about-section-heading">
+                <h2 class="about-section-main-title">THE PERFECT PLACE FOR<br>YOUR FITNESS GOAL</h2>
+            </div>
+
+            <div class="about-section-columns">
+                <div class="about-section-left-img-wrap">
+                    <img src="assets/about-left.png" alt="Fitness Woman" class="about-section-left-img">
+                    <div class="about-section-dots about-section-dots--left"></div>
+                </div>
+
+                <div class="about-section-center">
+                    <p class="about-section-priority-label">YOUR FITNESS, OUR PRIORITY</p>
+                    <div class="about-section-tagline-box">
+                        <span class="about-section-tagline">TRAIN LIKE A BEAST</span>
+                    </div>
+                    <p class="about-section-desc">We understand that your lifestyle changes, that's why we have made
+                        fitness straightforward and stress free. Join us today on a no lock-in contract membership and
+                        start your achieving fitness goals. We value flexibility at the gravity fitness, with unlimited
+                        24/7 access."</p>
+                    <button class="about-section-btn">READ MORE <span class="about-section-btn-plus">+</span></button>
+                </div>
+
+                <div class="about-section-right-img-wrap">
+                    <div class="about-section-dots about-section-dots--right"></div>
+                    <img src="assets/about-right.png" alt="Fitness Man" class="about-section-right-img">
                 </div>
             </div>
-            <div class="ticker-track--red">
-                <div class="ticker-inner">
-                    <span class="ticker-item">PLANK <span class="ticker-sep">✦</span> CARDIO <span class="ticker-sep">✦</span> BENCH PRESS <span class="ticker-sep">✦</span> DEAD LIFT <span class="ticker-sep">✦</span> CROSSFIT <span class="ticker-sep">✦</span> DUMBBELL <span class="ticker-sep">✦</span> STRENGTH <span class="ticker-sep">✦</span> SQUATS <span class="ticker-sep">✦</span> PULL UPS <span class="ticker-sep">✦</span></span>
-                    <span class="ticker-item">PLANK <span class="ticker-sep">✦</span> CARDIO <span class="ticker-sep">✦</span> BENCH PRESS <span class="ticker-sep">✦</span> DEAD LIFT <span class="ticker-sep">✦</span> CROSSFIT <span class="ticker-sep">✦</span> DUMBBELL <span class="ticker-sep">✦</span> STRENGTH <span class="ticker-sep">✦</span> SQUATS <span class="ticker-sep">✦</span> PULL UPS <span class="ticker-sep">✦</span></span>
+        </section>
+
+        <section class="fitness-section-wrap">
+            <div class="fitness-section-bg-container">
+                <div class="fitness-section-bg-text-large">FITNESS</div>
+                <div class="fitness-section-bg-text-outline">CLASS</div>
+            </div>
+
+            <div class="fitness-section-container">
+                <div class="fitness-section-header">
+                    <div class="fitness-section-accent">///</div>
+                    <h2 class="fitness-section-heading">JOIN OUR UPCOMMING<br>CLASSES NOW!!</h2>
+                </div>
+
+                <div class="fitness-section-grid">
+                    <!-- Item 1 -->
+                    <div class="fitness-section-item">
+                        <img src="assets/fitness-1.png" alt="Personal Training" class="fitness-section-img">
+                        <div class="fitness-section-overlay">
+                            <h4 class="fitness-section-item-title">PERSONAL<br>TRAINING</h4>
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="fitness-section-item">
+                        <img src="assets/fitness-2.png" alt="Performance Analyst" class="fitness-section-img">
+                        <div class="fitness-section-overlay">
+                            <h4 class="fitness-section-item-title">PERFORMANCE<br>ANALYST</h4>
+                        </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="fitness-section-item">
+                        <img src="assets/fitness-3.png" alt="Strength & Conditioning" class="fitness-section-img">
+                        <div class="fitness-section-overlay">
+                            <h4 class="fitness-section-item-title">STRENGTH &<br>CONDITIONING</h4>
+                        </div>
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="fitness-section-item">
+                        <img src="assets/fitness-4.png" alt="Pre Natal & Post Natal" class="fitness-section-img">
+                        <div class="fitness-section-overlay">
+                            <h4 class="fitness-section-item-title">PRE NATAL &<br>POST NATAL</h4>
+                        </div>
+                    </div>
+                    <!-- Item 5 -->
+                    <div class="fitness-section-item">
+                        <img src="assets/fitness-5.png" alt="Body Recompositing" class="fitness-section-img">
+                        <div class="fitness-section-overlay">
+                            <h4 class="fitness-section-item-title">BODY<br>RECOMPOSITING</h4>
+                        </div>
+                    </div>
+                    <!-- Item 6 -->
+                    <div class="fitness-section-item">
+                        <img src="assets/fitness-6.png" alt="Exercise Rehab" class="fitness-section-img">
+                        <div class="fitness-section-overlay">
+                            <h4 class="fitness-section-item-title">EXERCISE<br>REHAB</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-    </section>
-</main>
+        <!-- Why Choose Section -->
+        <section class="choose-section-wrap">
+            <div class="container choose-section-container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 choose-section-content">
+                        <div class="choose-section-accent">///</div>
+                        <h2 class="choose-section-title">WHY<br>CHOOSE<br>RAMAX<br>STUDIO</h2>
+                        <ul class="choose-section-list">
+                            <li>Largest gym floor in Purulia</li>
+                            <li>Superior imported equipment</li>
+                            <li>Clean and modern interiors</li>
+                            <li>Experienced trainers who guide you according to your specific goals</li>
+                            <li>Full-time air conditioning</li>
+                            <li>Flexible membership plans and pricing</li>
+                            <li>Convenient timings, including Sundays</li>
+                            <li>Personalized training and assessments</li>
+                            <li>Dedicated zones for strength, cardio, and mobility</li>
+                            <li>Safe and hygienic environment with CCTV monitoring</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 choose-section-image">
+                        <img src="assets/choose-right.png" alt="Why Choose Ramax" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="video-section-wrap">
+            <div class="video-section-container">
+                <div class="video-box" onclick="playVideo()">
+                    <img src="https://img.youtube.com/vi/Y5RtQ4cawVk/maxresdefault.jpg" alt="Video Thumbnail"
+                        class="img-fluid w-100">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    <div class="video-section-play-btn">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 
-    <script src="script/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
-        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
-        crossorigin="anonymous"></script>
+        <!-- Two Cards Section -->
+        <section class="cards-section-wrap">
+            <div class="container cards-section-container">
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-md-6 mb-4">
+                        <div class="cards-section-card">
+                            <div class="cards-section-img-box">
+                                <img src="assets/card1.png" alt="Advanced Equipment" class="img-fluid w-100">
+                            </div>
+                            <div class="cards-section-body">
+                                <h3 class="cards-section-card-title">WHY ADVANCED EQUIPMENT MATTERS</h3>
+                                <p class="cards-section-card-text">
+                                    Our machines are designed with biomechanics in mind —
+                                    built to follow your body's natural movement. This means
+                                    safer, smoother, and more effective training that helps you
+                                    get results faster and stay injury-free.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-md-6 mb-4">
+                        <div class="cards-section-card">
+                            <div class="cards-section-img-box">
+                                <img src="assets/card2.png" alt="Our Training" class="img-fluid w-100">
+                            </div>
+                            <div class="cards-section-body">
+                                <h3 class="cards-section-card-title">WHAT MAKES OUR TRAINING DIFFERENT</h3>
+                                <ul class="cards-section-card-list">
+                                    <li>Experienced trainers who track your progress</li>
+                                    <li>Focus on proper form and steady progress</li>
+                                    <li>Training methods backed by real research and practical results</li>
+                                    <li>Equipment designed to support your body's movement.</li>
+                                    <li>We don't just help you work out. We help you transform — safely, effectively,
+                                        and with purpose</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Pricing Plans Section -->
+        <section class="pricing-section-wrap">
+            <div class="container pricing-section-container">
+                <div class="pricing-section-header text-center">
+                    <div class="pricing-section-accent">///</div>
+                    <h2 class="pricing-section-title">CHOOSE PRICING PLANS<br>THAT SUITS YOU</h2>
+                    <p class="pricing-section-subtitle">Strength & Conditioning Programs tailored for every fitness goal
+                    </p>
+                </div>
+
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="pricing-section-card">
+                            <div class="pricing-section-card-header">
+                                <h3 class="pricing-section-card-name">PERSONAL TRAINING</h3>
+                                <p class="pricing-section-card-sub">ONE-ON-ONE COACHING</p>
+                            </div>
+                            <div class="pricing-section-card-content">
+                                <div class="pricing-item">
+                                    <h4 class="pricing-item-title">3 Sessions / Week</h4>
+                                    <ul>
+                                        <li>1 Month - ₹10,000</li>
+                                        <li>3 Months - ₹28,000</li>
+                                    </ul>
+                                </div>
+                                <div class="pricing-item">
+                                    <h4 class="pricing-item-title">Semi private (2-3 Pax)</h4>
+                                    <ul>
+                                        <li>1 Month - ₹7,000</li>
+                                        <li>3 Months - ₹20,000</li>
+                                    </ul>
+                                </div>
+                                <div class="pricing-item">
+                                    <h4 class="pricing-item-title">5 Sessions / Week</h4>
+                                    <ul>
+                                        <li>1 Month - ₹15,000</li>
+                                        <li>3 Months - ₹37,000</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="pricing-section-card-footer">
+                                <button class="pricing-section-btn">ENQUIRE NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="pricing-section-card">
+                            <div class="pricing-section-card-header">
+                                <h3 class="pricing-section-card-name">SEMI-PRIVATE TRAINING</h3>
+                                <p class="pricing-section-card-sub">2-3 PAX COACHING</p>
+                            </div>
+                            <div class="pricing-section-card-content">
+                                <div class="pricing-item">
+                                    <h4 class="pricing-item-title">3 Sessions / Week</h4>
+                                    <ul>
+                                        <li>1 Month - ₹7,000</li>
+                                        <li>3 Months - ₹20,000</li>
+                                    </ul>
+                                </div>
+                                <div class="pricing-item">
+                                    <h4 class="pricing-item-title">5 Sessions / Week</h4>
+                                    <ul>
+                                        <li>1 Month - ₹15,000</li>
+                                        <li>3 Months - ₹37,000</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="pricing-section-card-footer">
+                                <button class="pricing-section-btn">ENQUIRE NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="pricing-section-card">
+                            <div class="pricing-section-card-header">
+                                <h3 class="pricing-section-card-name">PRE/POST NATAL CARE</h3>
+                                <p class="pricing-section-card-sub">SAFE ONE-ON-ONE TRAINING FOR MOTHERS</p>
+                            </div>
+                            <div class="pricing-section-card-content">
+                                <div class="pricing-item">
+                                    <h4 class="pricing-item-title">3 Sessions / Week</h4>
+                                    <ul>
+                                        <li>1 Month - ₹10,000</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="pricing-section-card-footer">
+                                <button class="pricing-section-btn">ENQUIRE NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="pricing-section-card">
+                            <div class="pricing-section-card-header">
+                                <h3 class="pricing-section-card-name">BODY RECOMPOSITION PROGRAM</h3>
+                                <p class="pricing-section-card-sub">FAT LOSS PROGRAM SEMI PRIVATE</p>
+                            </div>
+                            <div class="pricing-section-card-content">
+                                <div class="pricing-item">
+                                    <h4 class="pricing-item-title">4 Sessions / Week</h4>
+                                    <ul>
+                                        <li>1 Month - ₹12,000</li>
+                                        <li>2 Months - ₹30,000</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="pricing-section-card-footer">
+                                <button class="pricing-section-btn">ENQUIRE NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Section -->
+        <section class="testimonial-section-wrap">
+            <div class="container">
+                <div class="testimonial-section-header text-center">
+                    <div class="testimonial-section-accent">///</div>
+                    <h2 class="testimonial-section-title">SEE WHAT OUR MEMBERS HAVE<br>TO SAY ABOUT US</h2>
+                </div>
+                
+                <div class="testimonial-section-main-box">
+                    <img src="assets/z-bg.png" alt="Background deco" class="testimonial-section-deco-bg">
+                    
+                    <div class="testimonial-section-inner">
+                        <div class="row h-100 align-items-center">
+                            <div class="col-lg-5 testimonial-section-left">
+                                <div class="testimonial-section-pagination">
+                                    <span class="active"></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 testimonial-section-right">
+                                <div class="testimonial-section-quote-container">
+                                    <div class="testimonial-section-quote-box">
+                                        <p class="testimonial-section-text">
+                                            Training Here Has<br>Transformed How I<br>Feel Day To Day.
+                                        </p>
+                                        <div class="testimonial-section-meta">
+                                            <h4 class="testimonial-section-author-name">ARJUN</h4>
+                                            <p class="testimonial-section-author-title">GENERAL MANAGER</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery-section-wrap">
+            <div class="gallery-section-bg-title">Gallery</div>
+            <div class="container gallery-section-container">
+                <div class="gallery-section-header text-center">
+                    <h2 class="gallery-section-subtitle">RE-CREATE YOURSELF</h2>
+                </div>
+
+                <div class="gallery-slider-box">
+                    <div class="gallery-slider-track">
+                        <!-- Slide 1 -->
+                        <div class="gallery-slide">
+                            <div class="gallery-slide-img"><img src="assets/fat1.png" alt="Fat 1"></div>
+                            <div class="gallery-slide-img"><img src="assets/fat2.png" alt="Fat 2"></div>
+                            <div class="gallery-slide-img"><img src="assets/fat3.png" alt="Fat 3"></div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="gallery-slide">
+                            <div class="gallery-slide-img"><img src="assets/fat1.png" alt="Fat 1"></div>
+                            <div class="gallery-slide-img"><img src="assets/fat2.png" alt="Fat 2"></div>
+                            <div class="gallery-slide-img"><img src="assets/fat3.png" alt="Fat 3"></div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="gallery-slide">
+                            <div class="gallery-slide-img"><img src="assets/fat1.png" alt="Fat 1"></div>
+                            <div class="gallery-slide-img"><img src="assets/fat2.png" alt="Fat 2"></div>
+                            <div class="gallery-slide-img"><img src="assets/fat3.png" alt="Fat 3"></div>
+                        </div>
+                    </div>
+                    <div class="gallery-slider-dots">
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Marquee Section -->
+        <section class="marquee-section-wrap">
+            <div class="marquee-track">
+                <div class="marquee-content">
+                    <img src="assets/gallery-along.jpg" alt="Gallery">
+                    <img src="assets/gallery-along2.jpg" alt="Gallery">
+                    <img src="assets/gallery-along3.jpg" alt="Gallery">
+                    <img src="assets/gallery-along4.jpg" alt="Gallery">
+                    <img src="assets/gallery-along5.jpg" alt="Gallery">
+                </div>
+                <div class="marquee-content">
+                    <img src="assets/gallery-along.jpg" alt="Gallery">
+                    <img src="assets/gallery-along2.jpg" alt="Gallery">
+                    <img src="assets/gallery-along3.jpg" alt="Gallery">
+                    <img src="assets/gallery-along4.jpg" alt="Gallery">
+                    <img src="assets/gallery-along5.jpg" alt="Gallery">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer Section -->
+        <footer class="footer-wrap">
+            <div class="container footer-container">
+                <div class="row">
+                    <!-- Logo Column -->
+                    <div class="col-lg-4 col-md-12 mb-5 mb-lg-0 footer-logo-col text-center text-lg-start">
+                        <img src="assets/logo-ramax.png" alt="Ramax Logo" class="footer-logo">
+                    </div>
+
+                    <!-- Info Column -->
+                    <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 footer-info-col text-center text-lg-start">
+                        <div class="footer-info-item">
+                            <span class="footer-label">CALL US ANYTIME</span>
+                            <h3 class="footer-phone">+91 98765 43210</h3>
+                        </div>
+                        <div class="footer-info-item">
+                            <span class="footer-label">VISIT OUR LOCATION</span>
+                            <p class="footer-address">RAMAX STUDIO, 1ST FLOOR,<br>WALKING STREET, CITY<br>CENTER MALL, PURULIA,<br>THIRUVANANTHAPURAM</p>
+                        </div>
+                        <div class="footer-info-item">
+                            <span class="footer-label">TIMING</span>
+                            <p class="footer-timing">MON-SAT: 5 AM - 10 PM<br>SUN: 7 AM - 12 PM</p>
+                        </div>
+                    </div>
+
+                    <!-- Services Column -->
+                    <div class="col-lg-4 col-md-6 footer-services-col text-center text-lg-start">
+                        <h3 class="footer-services-title">OUR SERVICES</h3>
+                        <div class="footer-services-accent">///</div>
+                        <ul class="footer-services-list">
+                            <li>PERSONAL TRAINING</li>
+                            <li>STRENGTH & CONDITIONING</li>
+                            <li>PRE NATAL & POST NATAL</li>
+                            <li>BODY RECOMPOSITING</li>
+                            <li>EXERCISE REHAB</li>
+                            <li>PERFORMANCE ANALYST</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="footer-bottom-inner">
+                        <div class="footer-copyright">
+                            Copyright © 2026 Ramax Strength & Performance Studio. All Rights Reserved.
+                        </div>
+                        <div class="footer-socials">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                        </div>
+                        <div class="footer-bottom-links">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms & Condition</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script/script.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+            integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
