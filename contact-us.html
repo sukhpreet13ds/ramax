@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramax</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="about-page">
+    <div class="about-page-top">
+        <div class="top-nav">
+            <p><i class="fa-regular fa-envelope"></i> info@ramaxstudio.in <span class="line-span"> | </span> <i
+                    class="fa-solid fa-phone"></i> +91
+                98765 43210 <span class="line-span"> | </span> <i class="fa-solid fa-location-dot"></i> Ramax Studio,
+                1st
+                floor, Walking Street,
+                City Center Mall, Purulia, Thiruvananthapuram</p>
+            <div class="top-socials">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+        </div>
+        <nav class="navbar-ramax">
+            <a href="index.html">
+                <div class="nav-logo">
+                    <img src="assets/logo-ramax.png" alt="Ramax Logo">
+                </div>
+            </a>
+            <div class="nav-actions">
+                <ul class="nav-menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about-us.html">ABOUT</a></li>
+                    <li><a href="index.html#ramax-services">SERVICE</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li class="active"><a href="contact-us.html">CONTACT</a></li>
+                </ul>
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="mobile-burger" id="mobileBurger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+        <div class="mobile-menu-panel" id="mobileMenuPanel">
+            <button class="mobile-close-btn" id="mobileCloseBtn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <ul class="mobile-nav-list">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about-us.html">ABOUT</a></li>
+                <li><a href="index.html#ramax-services">SERVICE</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li class="active"><a href="contact-us.html">CONTACT</a></li>
+            </ul>
+            <div class="mobile-menu-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="SEARCH...">
+            </div>
+        </div>
+
+        <!-- Desktop Sidebar Panel -->
+        <div class="desktop-sidebar" id="desktopSidebar">
+            <button class="sidebar-close-btn" id="sidebarCloseBtn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            
+            <div class="sidebar-content">
+                <div class="sidebar-logo">
+                    <img src="assets/logo-ramax.png" alt="Ramax Logo">
+                </div>
+
+                <div class="sidebar-search">
+                    <h3>SEARCH</h3>
+                    <div class="sidebar-search-box">
+                        <input type="text" placeholder="What are you looking for?">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+
+                <div class="sidebar-contact">
+                    <h3>GET IN TOUCH</h3>
+                    <div class="sidebar-contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Ramax Studio, 1st floor, Walking Street, City Center Mall, Purulia, Thiruvananthapuram</p>
+                    </div>
+                    <div class="sidebar-contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+91 98765 43210</p>
+                    </div>
+                    <div class="sidebar-contact-item">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>info@ramaxstudio.in</p>
+                    </div>
+                </div>
+
+                <div class="sidebar-consult">
+                    <button class="sidebar-btn open-enquiry-modal">BOOK YOUR CONSULTATION</button>
+                </div>
+
+                <div class="sidebar-socials">
+                    <h3>FOLLOW US</h3>
+                    <div class="sidebar-social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="about-hero-section">
+            <div class="about-hero-image">
+                <div class="about-hero-overlay">
+                    <div class="about-hero-content">
+                        <h1 class="about-hero-title">CONTACT US</h1>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <main>
+
+        <section class="contact-us-section container my-5">
+            <div class="row g-5">
+
+                <!-- LEFT: Form -->
+                <div class="col-lg-7">
+                    <h2 class="cu-section-title">GET IN TOUCH</h2>
+                    <p class="cu-section-sub">Fill the form below and we'll get back to you shortly.</p>
+
+                    <form class="cu-form" id="contactForm" novalidate>
+
+                        <div class="cu-form-group">
+                            <label for="cu-name">Name</label>
+                            <input type="text" id="cu-name" name="name" placeholder="Your Full Name" required>
+                        </div>
+
+                        <div class="cu-form-group">
+                            <label for="cu-email">Email</label>
+                            <input type="email" id="cu-email" name="email" placeholder="Your Email Address" required>
+                        </div>
+
+                        <div class="cu-form-group">
+                            <label for="cu-phone">Phone</label>
+                            <input type="tel" id="cu-phone" name="phone" placeholder="+91 00000 00000">
+                        </div>
+
+                        <div class="cu-form-group">
+                            <label for="cu-package">Select Package</label>
+                            <select id="cu-package" name="package">
+                                <option value="" disabled selected>Choose a package...</option>
+                                <option value="annual">Annual Membership</option>
+                                <option value="monthly">Monthly Membership</option>
+                                <option value="fatloss">5kg Fat Loss</option>
+                            </select>
+                        </div>
+
+                        <div class="cu-form-group">
+                            <label for="cu-message">Message</label>
+                            <textarea id="cu-message" name="message" rows="5"
+                                placeholder="Write your message here..."></textarea>
+                        </div>
+
+                        <button type="submit" class="cu-submit-btn" id="cuSubmitBtn">
+                            SUBMIT <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+
+                    </form>
+
+
+                </div>
+
+                <!-- RIGHT: Contact Info -->
+                <div class="col-lg-5">
+                    <div class="cu-info-box">
+                        <div class="cu-info-item">
+                            <div class="cu-info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h5 class="cu-info-label">OUR LOCATION</h5>
+                                <p class="cu-info-val">Ramax Studio, 1st Floor, Walking Street,<br>City Center Mall,
+                                    Purulia,<br>Thiruvananthapuram, Kerala</p>
+                            </div>
+                        </div>
+                        <div class="cu-info-item">
+                            <div class="cu-info-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <h5 class="cu-info-label">CALL US</h5>
+                                <p class="cu-info-val">+91 98765 43210</p>
+                            </div>
+                        </div>
+                        <div class="cu-info-item">
+                            <div class="cu-info-icon"><i class="fa-regular fa-envelope"></i></div>
+                            <div>
+                                <h5 class="cu-info-label">EMAIL US</h5>
+                                <p class="cu-info-val">info@ramaxstudio.in</p>
+                            </div>
+                        </div>
+                        <div class="cu-info-item">
+                            <div class="cu-info-icon"><i class="fa-regular fa-clock"></i></div>
+                            <div>
+                                <h5 class="cu-info-label">TIMING</h5>
+                                <p class="cu-info-val">Mon – Sat: 5 AM – 10 PM<br>Sun: 7 AM – 12 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Google Map -->
+        <div class="cu-map-wrap mt-5">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117223.59551893367!2d86.362167!3d23.3434137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f687c45f40bacd%3A0x7533f18eb42618c8!2sPURULIA%20CITY%20CENTRE!5e0!3m2!1sen!2sin!4v1778578621456!5m2!1sen!2sin"
+                width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" title="Ramax Studio Location">
+            </iframe>
+        </div>
+
+
+
+
+
+
+
+
+
+        <!-- Marquee Section -->
+        <section class="marquee-section-wrap">
+            <div class="marquee-track">
+                <div class="marquee-content">
+                    <img src="assets/gallery-along.jpg" alt="Gallery">
+                    <img src="assets/gallery-along2.jpg" alt="Gallery">
+                    <img src="assets/gallery-along3.jpg" alt="Gallery">
+                    <img src="assets/gallery-along4.jpg" alt="Gallery">
+                    <img src="assets/gallery-along5.jpg" alt="Gallery">
+                </div>
+                <div class="marquee-content">
+                    <img src="assets/gallery-along.jpg" alt="Gallery">
+                    <img src="assets/gallery-along2.jpg" alt="Gallery">
+                    <img src="assets/gallery-along3.jpg" alt="Gallery">
+                    <img src="assets/gallery-along4.jpg" alt="Gallery">
+                    <img src="assets/gallery-along5.jpg" alt="Gallery">
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="footer-wrap">
+            <div class="container footer-container">
+                <div class="row">
+                    <!-- Logo Column -->
+                    <div class="col-lg-4 col-md-12 mb-5 mb-lg-0 footer-logo-col text-center text-lg-start">
+                        <img src="assets/logo-ramax.png" alt="Ramax Logo" class="footer-logo">
+                    </div>
+
+                    <!-- Info Column -->
+                    <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 footer-info-col text-center text-lg-start">
+                        <div class="footer-info-item">
+                            <span class="footer-label">CALL US ANYTIME</span>
+                            <h3 class="footer-phone">+91 98765 43210</h3>
+                        </div>
+                        <div class="footer-info-item">
+                            <span class="footer-label">VISIT OUR LOCATION</span>
+                            <p class="footer-address">RAMAX STUDIO, 1ST FLOOR,<br>WALKING STREET, CITY<br>CENTER MALL,
+                                PURULIA,<br>THIRUVANANTHAPURAM</p>
+                        </div>
+                        <div class="footer-info-item">
+                            <span class="footer-label">TIMING</span>
+                            <p class="footer-timing">MON-SAT: 5 AM - 10 PM<br>SUN: 7 AM - 12 PM</p>
+                        </div>
+                    </div>
+
+                    <!-- Services Column -->
+                   <div class="col-lg-4 col-md-6 footer-services-col text-center text-lg-start">
+                        <h3 class="footer-services-title">COMPANY</h3>
+                        <div class="footer-services-accent">///</div>
+                        <ul class="footer-services-list">
+                            <li><a href="about-us.html">ABOUT</a></li>
+                            <li><a href="gallery.html">GALLERY</a></li>
+                            <li><a href="index.html#ramax-services">SERVICES</a></li>
+                            <li><a href="contact-us.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="footer-bottom-inner">
+                        <div class="footer-copyright">
+                            Copyright © 2026 Ramax Strength & Performance Studio. All Rights Reserved.
+                        </div>
+                        <div class="footer-socials">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                        </div>
+                        <div class="footer-bottom-links">
+                            <a href="privacy-policy.html">Privacy Policy</a>
+                            <a href="term-conditions.html">Terms & Condition</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+<div class="enquiry-modal-overlay" id="enquiryModal">
+            <div class="enquiry-modal-content">
+                <button class="enquiry-modal-close" id="closeEnquiryModal">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div class="enquiry-modal-header">
+                    <h3>ENQUIRY FORM</h3>
+                    <p>Ready to transform? Let's get in touch.</p>
+                </div>
+                <form class="enquiry-form" id="enquiryForm">
+                    <div class="enquiry-form-group">
+                        <label for="enquiry-name">Full Name</label>
+                        <input type="text" id="enquiry-name" name="name" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="enquiry-form-group">
+                        <label for="enquiry-email">Email</label>
+                        <input type="email" id="enquiry-email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="enquiry-form-group">
+                        <label for="enquiry-phone">Phone</label>
+                        <input type="tel" id="enquiry-phone" name="phone" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="enquiry-form-group">
+                        <label for="enquiry-package">Package</label>
+                        <select id="enquiry-package" name="package" required>
+                            <option value="" disabled selected>Select a package</option>
+                            <option value="Annual Membership">Annual Membership</option>
+                            <option value="Half-Yearly Membership">Half-Yearly Membership</option>
+                            <option value="Silver Membership">Silver Membership</option>
+                        </select>
+                    </div>
+                    <div class="enquiry-form-group">
+                        <label for="enquiry-message">Message</label>
+                        <textarea id="enquiry-message" name="message" rows="4" placeholder="How can we help you?"></textarea>
+                    </div>
+                    <button type="submit" class="enquiry-submit-btn">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+
+        <script src="script/script.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+            integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

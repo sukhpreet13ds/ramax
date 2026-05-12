@@ -28,9 +28,11 @@
     </div>
     <nav class="navbar-ramax">
         <!-- Logo -->
-        <div class="nav-logo">
-            <img src="assets/logo-ramax.png" alt="Ramax Logo">
-        </div>
+       <a href="index.html">
+                <div class="nav-logo">
+                    <img src="assets/logo-ramax.png" alt="Ramax Logo">
+                </div>
+            </a>
 
         <!-- Menu -->
 
@@ -38,11 +40,11 @@
         <!-- Right Icons -->
         <div class="nav-actions">
             <ul class="nav-menu">
-                <li class="active">HOME</li>
-                <li>ABOUT</li>
-                <li>SERVICE</li>
-                <li>GALLERY</li>
-                <li>CONTACT</li>
+                <li class="active"><a href="index.html">HOME</a></li>
+                <li><a href="about-us.html">ABOUT</a></li>
+                <li><a href="#ramax-services">SERVICE</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact-us.html">CONTACT</a></li>
             </ul>
             <div class="search-box">
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -60,17 +62,73 @@
             <i class="fa-solid fa-xmark"></i>
         </button>
         <ul class="mobile-nav-list">
-            <li class="active">HOME</li>
-            <li>ABOUT</li>
-            <li>SERVICE</li>
-            <li>GALLERY</li>
-            <li>CONTACT</li>
+            <li class="active"><a href="index.html">HOME</a></li>
+            <li><a href="about-us.html">ABOUT</a></li>
+            <li><a href="#ramax-services">SERVICE</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact-us.html">CONTACT</a></li>
         </ul>
         <div class="mobile-menu-search">
             <i class="fa-solid fa-magnifying-glass"></i>
             <input type="text" placeholder="SEARCH...">
         </div>
     </div>
+
+    <!-- Desktop Sidebar Panel -->
+    <div class="desktop-sidebar" id="desktopSidebar">
+        <button class="sidebar-close-btn" id="sidebarCloseBtn">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        
+        <div class="sidebar-content">
+            <div class="sidebar-logo">
+                <img src="assets/logo-ramax.png" alt="Ramax Logo">
+            </div>
+
+            <!-- Search Section -->
+            <div class="sidebar-search">
+                <h3>SEARCH</h3>
+                <div class="sidebar-search-box">
+                    <input type="text" placeholder="What are you looking for?">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <!-- Contact Info Section -->
+            <div class="sidebar-contact">
+                <h3>GET IN TOUCH</h3>
+                <div class="sidebar-contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Ramax Studio, 1st floor, Walking Street, City Center Mall, Purulia, Thiruvananthapuram</p>
+                </div>
+                <div class="sidebar-contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+91 98765 43210</p>
+                </div>
+                <div class="sidebar-contact-item">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>info@ramaxstudio.in</p>
+                </div>
+            </div>
+
+            <!-- Consult Button -->
+            <div class="sidebar-consult">
+                <button class="sidebar-btn open-enquiry-modal">BOOK YOUR CONSULTATION</button>
+            </div>
+
+            <!-- Social Links Section -->
+            <div class="sidebar-socials">
+                <h3>FOLLOW US</h3>
+                <div class="sidebar-social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <main>
         <section class="hero-section">
             <div class="container h-100 hero-section-inner-wrap">
@@ -80,7 +138,7 @@
                             <h1 class="hero-title">STRENGTH SHOULD SOLVE<br> PROBLEMS, NOT CREATE THEM.</h1>
                             <p class="hero-desc">RAMAX brings together a premium environment,<br>top-tier machines, and
                                 experienced guidance — so<br>transformation becomes part of your routine.</p>
-                            <button class="hero-btn">BOOK YOUR CONSULTATION</button>
+                            <button class="hero-btn open-enquiry-modal">BOOK YOUR CONSULTATION</button>
                         </div>
                     </div>
                     <div class="col-lg-6 hero-right">
@@ -130,7 +188,7 @@
             <div class="about-section-bg-title">ABOUT US</div>
 
             <div class="about-section-heading">
-                <h2 class="about-section-main-title">THE PERFECT PLACE FOR<br>YOUR FITNESS GOAL</h2>
+                <h2 class="about-section-main-title">THE PERFECT PLACE FOR YOUR FITNESS GOAL</h2>
             </div>
 
             <div class="about-section-columns">
@@ -147,8 +205,9 @@
                     <p class="about-section-desc">We understand that your lifestyle changes, that's why we have made
                         fitness straightforward and stress free. Join us today on a no lock-in contract membership and
                         start your achieving fitness goals. We value flexibility at the gravity fitness, with unlimited
-                        24/7 access."</p>
-                    <button class="about-section-btn">READ MORE <span class="about-section-btn-plus">+</span></button>
+                        24/7 access.</p>
+                    <a href="about-us.html"><button class="about-section-btn">READ MORE <span
+                                class="about-section-btn-plus">+</span></button></a>
                 </div>
 
                 <div class="about-section-right-img-wrap">
@@ -158,7 +217,7 @@
             </div>
         </section>
 
-        <section class="fitness-section-wrap">
+        <section class="fitness-section-wrap" id="ramax-services">
             <div class="fitness-section-bg-container">
                 <div class="fitness-section-bg-text-large">FITNESS</div>
                 <div class="fitness-section-bg-text-outline">CLASS</div>
@@ -222,8 +281,10 @@
             <div class="container choose-section-container">
                 <div class="row align-items-center">
                     <div class="col-lg-7 choose-section-content">
-                        <div class="choose-section-accent">///</div>
-                        <h2 class="choose-section-title">WHY<br>CHOOSE<br>RAMAX<br>STUDIO</h2>
+                        <div class="choose-inner-left">
+                            <div class="choose-section-accent">///</div>
+                            <h2 class="choose-section-title">WHY<br>CHOOSE<br>RAMAX<br>STUDIO</h2>
+                        </div>
                         <ul class="choose-section-list">
                             <li>Largest gym floor in Purulia</li>
                             <li>Superior imported equipment</li>
@@ -236,9 +297,10 @@
                             <li>Dedicated zones for strength, cardio, and mobility</li>
                             <li>Safe and hygienic environment with CCTV monitoring</li>
                         </ul>
+                        <div class="choose-read-more">Read More</div>
                     </div>
                     <div class="col-lg-5 choose-section-image">
-                        <img src="assets/choose-right.png" alt="Why Choose Ramax" class="img-fluid">
+                        <img src="assets/workout.jpg" alt="Why Choose Ramax" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -387,7 +449,7 @@
                                 </div>
                             </div>
                             <div class="pricing-section-card-footer">
-                                <button class="pricing-section-btn">ENQUIRE NOW</button>
+                                <button class="pricing-section-btn open-enquiry-modal">ENQUIRE NOW</button>
                             </div>
                         </div>
                     </div>
@@ -415,7 +477,7 @@
                                 </div>
                             </div>
                             <div class="pricing-section-card-footer">
-                                <button class="pricing-section-btn">ENQUIRE NOW</button>
+                                <button class="pricing-section-btn open-enquiry-modal">ENQUIRE NOW</button>
                             </div>
                         </div>
                     </div>
@@ -435,7 +497,7 @@
                                 </div>
                             </div>
                             <div class="pricing-section-card-footer">
-                                <button class="pricing-section-btn">ENQUIRE NOW</button>
+                                <button class="pricing-section-btn open-enquiry-modal">ENQUIRE NOW</button>
                             </div>
                         </div>
                     </div>
@@ -456,7 +518,7 @@
                                 </div>
                             </div>
                             <div class="pricing-section-card-footer">
-                                <button class="pricing-section-btn">ENQUIRE NOW</button>
+                                <button class="pricing-section-btn open-enquiry-modal">ENQUIRE NOW</button>
                             </div>
                         </div>
                     </div>
@@ -465,40 +527,60 @@
         </section>
 
         <!-- Testimonial Section -->
-        <section class="testimonial-section-wrap">
-            <div class="container">
-                <div class="testimonial-section-header text-center">
-                    <div class="testimonial-section-accent">///</div>
-                    <h2 class="testimonial-section-title">SEE WHAT OUR MEMBERS HAVE<br>TO SAY ABOUT US</h2>
-                </div>
-                
-                <div class="testimonial-section-main-box">
-                    <img src="assets/z-bg.png" alt="Background deco" class="testimonial-section-deco-bg">
-                    
-                    <div class="testimonial-section-inner">
-                        <div class="row h-100 align-items-center">
-                            <div class="col-lg-5 testimonial-section-left">
-                                <div class="testimonial-section-pagination">
-                                    <span class="active"></span>
-                                    <span></span>
-                                    <span></span>
-                                </div>
-                            </div>
-                            <div class="col-lg-7 testimonial-section-right">
-                                <div class="testimonial-section-quote-container">
-                                    <div class="testimonial-section-quote-box">
-                                        <p class="testimonial-section-text">
-                                            Training Here Has<br>Transformed How I<br>Feel Day To Day.
-                                        </p>
-                                        <div class="testimonial-section-meta">
-                                            <h4 class="testimonial-section-author-name">ARJUN</h4>
-                                            <p class="testimonial-section-author-title">GENERAL MANAGER</p>
-                                        </div>
-                                    </div>
-                                </div>
+        <section class="testimonial-section-slides">
+            <div class="testimonial-header text-center">
+                <div class="testimonial-accent">///</div>
+                <h2 class="testimonial-title">SEE WHAT OUR MEMBERS HAVE<br>TO SAY ABOUT US</h2>
+            </div>
+
+            <div class="testimonial-slider-container">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <!-- Slide 1 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-bg-img">
+                            <img src="assets/z-bg.png" alt="Testimonial Background">
+                        </div>
+                        <div class="testimonial-content-box">
+                            <p class="testimonial-text">Training Here Has<br>Transformed How I<br>Feel Day To Day.</p>
+                            <div class="testimonial-author">
+                                <h4 class="author-name">ARJUN</h4>
+                                <p class="author-role">GENERAL MANAGER</p>
                             </div>
                         </div>
                     </div>
+                    <!-- Slide 2 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-bg-img">
+                            <img src="assets/z-bg.png" alt="Testimonial Background">
+                        </div>
+                        <div class="testimonial-content-box">
+                            <p class="testimonial-text">The environment here is<br>exactly what I needed to<br>reach my fitness goals.</p>
+                            <div class="testimonial-author">
+                                <h4 class="author-name">SARAH</h4>
+                                <p class="author-role">MARKETING DIRECTOR</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-bg-img">
+                            <img src="assets/z-bg.png" alt="Testimonial Background">
+                        </div>
+                        <div class="testimonial-content-box">
+                            <p class="testimonial-text">State-of-the-art equipment<br>and highly professional<br>trainers. Highly recommend!</p>
+                            <div class="testimonial-author">
+                                <h4 class="author-name">VIKRAM</h4>
+                                <p class="author-role">SOFTWARE ENGINEER</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Dots -->
+                <div class="testimonial-dots" id="testimonialDots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
                 </div>
             </div>
         </section>
@@ -506,10 +588,10 @@
         <!-- Gallery Section -->
         <section class="gallery-section-wrap">
             <div class="gallery-section-bg-title">Gallery</div>
+            <div class="gallery-section-header text-center">
+                <h2 class="gallery-section-subtitle">RE-CREATE YOURSELF</h2>
+            </div>
             <div class="container gallery-section-container">
-                <div class="gallery-section-header text-center">
-                    <h2 class="gallery-section-subtitle">RE-CREATE YOURSELF</h2>
-                </div>
 
                 <div class="gallery-slider-box">
                     <div class="gallery-slider-track">
@@ -589,15 +671,13 @@
 
                     <!-- Services Column -->
                     <div class="col-lg-4 col-md-6 footer-services-col text-center text-lg-start">
-                        <h3 class="footer-services-title">OUR SERVICES</h3>
+                        <h3 class="footer-services-title">COMPANY</h3>
                         <div class="footer-services-accent">///</div>
                         <ul class="footer-services-list">
-                            <li>PERSONAL TRAINING</li>
-                            <li>STRENGTH & CONDITIONING</li>
-                            <li>PRE NATAL & POST NATAL</li>
-                            <li>BODY RECOMPOSITING</li>
-                            <li>EXERCISE REHAB</li>
-                            <li>PERFORMANCE ANALYST</li>
+                            <li><a href="about-us.html">ABOUT</a></li>
+                            <li><a href="gallery.html">GALLERY</a></li>
+                            <li><a href="index.html#ramax-services">SERVICES</a></li>
+                            <li><a href="contact-us.html">CONTACT</a></li>
                         </ul>
                     </div>
                 </div>
@@ -616,15 +696,57 @@
                             <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
                         </div>
                         <div class="footer-bottom-links">
-                            <a href="#">Privacy Policy</a>
-                            <a href="#">Terms & Condition</a>
+                            <a href="privacy-policy.html">Privacy Policy</a>
+                            <a href="term-conditions.html">Terms & Condition</a>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
 
+        <!-- Enquiry Modal -->
+        <div class="enquiry-modal-overlay" id="enquiryModal">
+            <div class="enquiry-modal-content">
+                <button class="enquiry-modal-close" id="closeEnquiryModal">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div class="enquiry-modal-header">
+                    <h3>ENQUIRY FORM</h3>
+                    <p>Ready to transform? Let's get in touch.</p>
+                </div>
+                <form class="enquiry-form" id="enquiryForm">
+                    <div class="enquiry-form-group">
+                        <label for="enquiry-name">Full Name</label>
+                        <input type="text" id="enquiry-name" name="name" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="enquiry-form-group">
+                        <label for="enquiry-email">Email</label>
+                        <input type="email" id="enquiry-email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="enquiry-form-group">
+                        <label for="enquiry-phone">Phone</label>
+                        <input type="tel" id="enquiry-phone" name="phone" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="enquiry-form-group">
+                        <label for="enquiry-package">Package</label>
+                        <select id="enquiry-package" name="package" required>
+                            <option value="" disabled selected>Select a package</option>
+                            <option value="Annual Membership">Annual Membership</option>
+                            <option value="Half-Yearly Membership">Half-Yearly Membership</option>
+                            <option value="Silver Membership">Silver Membership</option>
+                        </select>
+                    </div>
+                    <div class="enquiry-form-group">
+                        <label for="enquiry-message">Message</label>
+                        <textarea id="enquiry-message" name="message" rows="4" placeholder="How can we help you?"></textarea>
+                    </div>
+                    <button type="submit" class="enquiry-submit-btn">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+
         <script src="script/script.js"></script>
+
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
