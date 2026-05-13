@@ -55,7 +55,13 @@ body {
     position: absolute;
     transform: translateX(-50%);
 }
-
+.top-contact-link, .sidebar-contact-link, .footer-phone-link, .cu-link{
+    color: #fff;
+    text-decoration: none;
+}
+.top-contact-link:hover, .sidebar-contact-link:hover, .footer-phone-link:hover, .cu-link:hover{
+    color: #CB4E54;
+}
 .top-socials i {
     margin-right: 5px;
     font-size: 15px;
@@ -2931,3 +2937,53 @@ body {
         right: -100%;
     }
 }
+/* WhatsApp Floating Button */
+.wa-float {
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    width: 64px;
+    height: 64px;
+    background: #25D366;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    z-index: 9999;
+    font-size: 34px;
+    box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+    animation: waPulse 2s infinite;
+    transition: all 0.3s ease;
+}
+
+.wa-float:hover {
+    transform: translateY(-5px) scale(1.08);
+    box-shadow: 0 14px 30px rgba(37, 211, 102, 0.55);
+}
+
+/* Pulse Animation */
+@keyframes waPulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6);
+    }
+    70% {
+        box-shadow: 0 0 0 18px rgba(37, 211, 102, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+    }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .wa-float {
+        width: 52px;
+        height: 52px;
+        right: 14px;
+        bottom: 14px;
+        font-size: 28px;
+    }
+}
+
